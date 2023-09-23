@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>QR Code Generator | ByteBlitz Technology</title>
+	<link rel="stylesheet" href="css/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+	<div class="container-qr">
+		<div class="image-qr">
+			<img src="https://chart.googleapis.com/chart?cht=qr&chl=Hello+World&chs=500x500&chld=L|0" class="qr-code">
+		</div>
+
+		<div class="input-link">
+			<p class="title">QR CODE GENERATOR</p>
+			<input type="text" size="60" maxlength="500" class="form-control" id="content" placeholder="Enter URL" />
+			<button type="button" id="generate" class="button">GENERATE</button>
+			<a href="index.html" class="button">GENERATE ANOTHER</a>
+
+			<div class="credits">
+		    	<p>Made with ❤️ by <a href="https://www.facebook.com/byteblitztechnology" target="_blank">ByteBlitz Technologies</a></p>
+		    	<p class="version">VERSION 0.1.1</p>
+		    </div>
+		</div>
+	</div>
+</body>
+<script src="js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</html>
